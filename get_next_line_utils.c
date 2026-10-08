@@ -6,7 +6,7 @@
 /*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
 /*   Created: 2026/10/02 01:09:10 by username         #+#    #+#              */
-/*   Updated: 2026/10/03 12:17:51 by username        ###   ########.fr        */
+/*   Updated: 2026/10/08 12:01:18 by yaabed           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,6 +62,8 @@ char	*ft_strchr(char *s, int c)
 	int		index;
 	char	*ptr;
 
+	if (!s)
+		return (NULL);
 	index = 0;
 	ptr = s;
 	while (ptr[index] != '\0')

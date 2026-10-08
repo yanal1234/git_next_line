@@ -6,7 +6,7 @@
 /*   By: username <username@student.42tokyo.jp>    #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
 /*   Created: 2026/10/02 01:00:48 by username         #+#    #+#              */
-/*   Updated: 2026/10/03 12:20:55 by yaabed           ###   ########.fr       */
+/*   Updated: 2026/10/08 18:35:22 by yaabed           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,5 +27,6 @@ char	*ft_strjoin(char const *s1, char const *s2);
 char	*ft_strchr(char *s, int c);
 char	*get_line(char *stash);
 char	*get_next_line(int fd);
+char	*edit_stash(char *stash, char *line);
 
 #endif
